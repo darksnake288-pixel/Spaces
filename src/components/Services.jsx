@@ -30,10 +30,10 @@ const Services = () => {
     ]
 
   return (
-    <div data-aos="fade-up" className= "bg-black text-white relative z-50 gap-10">
-    <div className= "Container">
+    <div data-aos="fade-up" className= "bg-black text-white relative z-50 gap-10 overflow-hidden">
+    <div className= "Container px-4 sm:px-6">
       <div className= "min-h-[400px]">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10 max-w-6xl mx-auto">
             {ServiceData.map((data,index) => 
             ( 
                 <div className="min-h-[180px] flex flex-col gap-2 justify-center items-center rounded-xl bg-sky-900/60 backdrop-blur-sm text-center py-9 px-3 w-full text-2xl lg:w-[300px] mx-auto  ">
@@ -55,7 +55,7 @@ const Services = () => {
         </div>
         {/* surage section**/ }
         <div>
-            <img src={moon} alt="Moon" className="absolute left-0 bottom-150 w-[1300px] brightness-50 z-10" />
+            <img src={moon} alt="Moon" className="absolute left-0 bottom-150 w-[150%] sm:w-[1300px] max-w-none brightness-50 z-10" />
         </div>
       </div>
       <div className="absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px] sm:h-[50px] md:h-[60px]"></div>

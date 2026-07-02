@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <h2 className="text-white text-2xl font-bold mb-3 tracking-wide">Be Ready To Grow</h2>
             <p className="text-gray-400 text-sm mb-4">
-              Get Exclusive <span class="text-white font-semibold">Update</span>straigt to your inbox.
+              Get Exclusive <span className="text-white font-semibold">Update</span> straight to your inbox.
             </p>
             <div className="flex items-center max-w-xs">
               <input 

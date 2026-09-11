@@ -1,17 +1,51 @@
-# React + Vite
-# Demo LINk : [click here](https://spaces-taupe.vercel.app/)
+# Spaces
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Space-themed marketing site with a full-screen Earth video background, services, banners, and footer. Scroll motion is handled with AOS.
 
-Currently, two official plugins are available:
+**Live demo:** [spaces-taupe.vercel.app](https://spaces-taupe.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Full-viewport looping video background
+- Navbar, hero, services, dual banners, and footer
+- AOS scroll animations
+- Responsive Tailwind CSS layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+| Area | Tools |
+| --- | --- |
+| UI | React 19 |
+| Styling | Tailwind CSS 4 |
+| Animation | AOS |
+| Bundler | Vite 8 |
+| Icons | react-icons |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+```bash
+git clone https://github.com/darksnake288-pixel/Spaces.git
+cd Spaces
+npm install
+npm run dev
+```
+
+| Script | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint |
+
+## Project layout
+
+```
+src/
+  App.jsx
+  components/   # Navbar, Hero, Services, Banner, Banner2, Footer
+  assets/       # Includes Earth.mp4 background
+```
+
+## Author
+
+[Youssef Adel](https://github.com/darksnake288-pixel) · Frontend developer

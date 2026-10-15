@@ -36,7 +36,7 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10 max-w-6xl mx-auto">
             {ServiceData.map((data,index) => 
             ( 
-                <div className="min-h-[180px] flex flex-col gap-2 justify-center items-center rounded-xl bg-sky-900/60 backdrop-blur-sm text-center py-9 px-3 w-full text-2xl lg:w-[300px] mx-auto  ">
+                <div className="min-h-[180px] flex flex-col gap-2 justify-center items-center rounded-xl bg-sky-900/60 backdrop-blur-sm text-center py-9 px-3 w-full text-xl sm:text-2xl lg:max-w-[300px] mx-auto  ">
                     <div>{data.icon}</div>
                     <h1>{data.title}</h1>
                     <p>{data.content}</p>

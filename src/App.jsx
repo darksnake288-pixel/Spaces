@@ -18,7 +18,7 @@ const App = () => {
   })
   return (
     <div className="overflow-x-hidden">
-      <video autoPlay loop muted playsInline className="w-full h-screen object-cover">
+      <video autoPlay loop muted playsInline className="w-full h-screen h-dvh object-cover">
         <source src={Bg} type="video/mp4" />
       </video>
       <div>
